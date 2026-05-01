@@ -5,7 +5,6 @@
 .nrGrammardata section,
 .nrGrammardata header {
   position: relative;
-  width: 800px;
   margin: auto;
   z-index: 1;
 }
@@ -243,6 +242,7 @@ only screen and (min-device-width: 768px) {
 @media handheld, (max-width: 1244px) {
     .nrGrammardata nav {
       right: 5px;
-      width: 8vw;
+      width: min(10rem,15vw);
+      background-image: linear-gradient(230deg,white,transparent);
     }
 }
